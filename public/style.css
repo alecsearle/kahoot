@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 20px #888888;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.login h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login button {
+  display: flex;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.register button {
+  width: 100%;
+}
+
+.quizzes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.quizzes button {
+  width: 10rem;
+}
+
+.quizzes .edit_delete {
+  width: 5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.quizzes #delete_button {
+  background-color: red;
+}
